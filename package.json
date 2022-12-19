@@ -1,0 +1,24 @@
+{
+  "name": "prisma",
+  "version": "1.0.0",
+  "description": "Projeto criado para testar a interação do Prisma com um banco de dados relacional (PostgreSQL) usando Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fuckners/Prisma.git"
+  },
+  "author": "Felipe Fuckner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fuckners/Prisma/issues"
+  },
+  "homepage": "https://github.com/Fuckners/Prisma#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "prisma": "^4.5.0"
+  }
+}
